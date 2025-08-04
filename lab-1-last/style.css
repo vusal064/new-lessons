@@ -1,0 +1,100 @@
+body {
+
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.pricing-table {
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.pricing-table h1 {
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 30px 20px;
+  width: 280px;
+}
+
+.card-pro {
+  border-radius: 7px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px 20px;
+  width: 280px;
+
+}
+
+
+
+.card-pro ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.card-pro ul li {
+  margin: 8px 0;
+  color: #555;
+}
+
+.card-pro h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.card h2 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.card h3 {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.card ul li {
+  margin: 8px 0;
+  color: #555;
+}
+
+.btn {
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  color: white;
+}
+
+.pink {
+  background-color: #ec2c8c;
+}
+
+.green {
+  background-color: #47c18c;
+}
+
+.blue {
+  background-color: #686de0;
+}
