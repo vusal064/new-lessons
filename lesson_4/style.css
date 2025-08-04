@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 600px;
+  height: 400px;
+  border: 1px solid black;
+  margin: 50px;
+  position: relative;
+}
+
+.child-1 {
+  border: 1px solid red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 20px;
+  top: 20px;
+  background-color: red;
+}
+.child-2 {
+  border: 1px solid red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 20px;
+  top: 20px;
+  background-color: green;
+}
+.child-3 {
+  border: 1px solid red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 20px;
+  bottom: 20px;
+  background-color: blue;
+}
+.child-4 {
+  border: 1px solid red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  right: 20px;
+  bottom: 20px;
+  background-color: blueviolet;
+}
+.child-5 {
+  border: 1px solid red;
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 40%;
+  top: 35%;
+  background-color: brown;
+}
