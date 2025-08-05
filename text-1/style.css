@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #80808057;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+width: 710px;
+    height: 250px;
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background-color: #80808087;
+}
+
+.login {
+padding: 40px;
+    border-radius: 16px;
+    text-align: center;
+    color: white;
+    width: 600px;
+    height: 145px;
+    background-color: #0000ffa1;
+}
+
+.login h2 {
+  margin-bottom: 10px;
+  font-size: 22px;
+}
+
+.login p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.login-input {
+  display: flex;
+  background: rgb(255 255 255 / 0.5);
+  border-radius: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  width: 300px;
+  margin: auto;
+}
+
+.login-input input {
+  padding: 12px 20px;
+  border: none;
+  background: transparent;
+  color: white;
+  font-size: 14px;
+}
+
+.login-input button {
+  background-color: rgb(255 255 255);
+  border: none;
+  padding: 5px 5px;
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  border-radius: 20px;
+}
+
+.profil {
+  position: relative;
+  width: 300px;
+  margin: auto;
+  margin-top: 50px;
+}
+
+.profil img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+}
+
+
+#profilOne{
+    position: absolute;
+    bottom: -25px;
+    left: -45px;
+}
+
+#profilTwo{
+        position: absolute;
+    bottom: -25px;
+    left: 40px;
+}
+
+#profilThree{
+        position: absolute;
+    bottom: -25px;
+    left: 115px;
+}
+
+#profilFour{
+    position: absolute;
+    bottom: -25px;
+    right: 55px;
+}
+
+#profilFive{
+        position: absolute;
+    bottom: -25px;
+    right: -25px;
+}
