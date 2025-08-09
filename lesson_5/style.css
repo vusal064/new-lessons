@@ -1,0 +1,23 @@
+body {
+display: flex;
+justify-content: center;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite   ;
+}
+
+@keyframes example {
+  from {
+    border-radius: 0%;
+  }
+  to {
+    border-radius: 50%;
+    transform: rotate(360deg);
+  }
+}
