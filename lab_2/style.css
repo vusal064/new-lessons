@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Arial,  sans-serif;
+  font-family: Arial, sans-serif;
 }
 
 body {
@@ -18,6 +18,9 @@ body {
   width: 70%;
   margin-top: 100px;
   border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px,
+    rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px,
+    rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
 .about,
@@ -32,7 +35,7 @@ body {
 }
 
 .about {
-  background-color: aqua;
+  background-color: #00b4cf;
   color: white;
 }
 
@@ -54,13 +57,12 @@ input {
   border: none;
   background-color: #8080801c;
   padding-left: 10px;
-
 }
 
 textarea {
   width: 55%;
   height: 70px;
-    border: none;
+  border: none;
   background-color: #8080801c;
   padding: 10px;
 }
@@ -71,14 +73,14 @@ p {
 .contact {
   vertical-align: top;
   padding: 0;
+  background-color: #fff;
 }
 
-.contact-title{
-    font-weight: bold;
-    font-size: 30px;
-    margin-top: 20px;
+.contact-title {
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
 }
-
 
 form div {
   display: inline-block;
@@ -86,17 +88,17 @@ form div {
   margin: 15px;
 }
 
-div button{
-    width: 180px;
-    height: 50px;
-    border: none;
-    border-radius: 30px;
-    background-color: aqua;
-    font-weight: bold;
-    color: white;
-    transition: 1s;
+div button {
+  width: 180px;
+  height: 50px;
+  border: none;
+  border-radius: 30px;
+  background-color: #00b4cf;
+  font-weight: bold;
+  color: white;
+  transition: 1s;
 }
 
-div button:hover{
-    background-color: #00b4b4;
+div button:hover {
+  background-color: #00b4b48f;
 }
