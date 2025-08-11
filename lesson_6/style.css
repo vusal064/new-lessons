@@ -1,0 +1,98 @@
+*a {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  margin: 50px;
+  width: 60%;
+}
+
+.frst-box {
+  display: flex;
+  width: 100%;
+  height: 50px;
+}
+
+.frst-box-item {
+  width: 50%;
+  background-color: red;
+}
+
+.frst-box-item-2 {
+  width: 50%;
+  background-color: green;
+}
+
+.frst-box div {
+  margin: 0px 5px;
+}
+
+.scnd-box {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  justify-content: space-around;
+  margin: 20px 0px;
+}
+
+.left-scnd {
+  width: 50%;
+  height: 60px;
+  margin: 20px;
+}
+
+.left-scnd-item {
+  width: 100%;
+  height: 30px;
+  background-color: yellow;
+  margin-bottom: 10px;
+}
+
+.left-scnd-item-2 {
+  width: 100%;
+  height: 30px;
+  background-color: rgb(180, 180, 53);
+}
+
+.right-scnd {
+  width: 100px;
+  height: 80px;
+  background-color: brown;
+}
+
+.thrd-div {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  height: 50px;
+  margin: 50px 0px;
+}
+
+.thrd-div-item {
+  width: 33%;
+  height: 50px;
+  background-color: blueviolet;
+}
+.thrd-div-item-2 {
+  width: 33%;
+  height: 50px;
+  background-color: red;
+}
+
+.thrd-div-item-3 {
+  width: 33%;
+  height: 50px;
+  background-color: blue;
+}
+.div-four {
+  width: 100%;
+  height: 50px;
+  background-color: aqua;
+}
