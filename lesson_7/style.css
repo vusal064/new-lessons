@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+}
+
+/* .container{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+
+
+.box{
+    width: 160px;
+    height: 160px;
+    background-color: blueviolet;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.box-1{
+    background-color: blueviolet;
+
+}
+
+.box-2{
+    background-color: blue;
+}
+
+.box-3{
+    background-color: red;
+}
+
+.box-4{
+    background-color: green;
+}
+
+.box-5{
+    background-color: aqua;
+}
+
+.box-6{
+    background-color: brown;
+}
+
+.box-7{
+    background-color: rebeccapurple;
+}
+
+.box-8{
+    background-color: yellow;
+}
+
+.box-9{
+    background-color: grey;
+} */
+
+
+.main {
+      height: 600px;
+  margin: auto;
+  display: grid;
+}
+
+.header {
+  background-color: blueviolet;
+  grid-column: 1 /4;
+  height: 100px;
+}
+
+.sidebar {
+  background-color: aqua;
+  grid-row: 2 / 4;
+  height: 400px;
+}
+
+.footer {
+  background-color: blueviolet;
+  grid-column: 1 /4;
+  height: 100px;
+}
+
+.content-1 {
+  background-color: white;
+  grid-column: 2 / 4;
+  grid-row: 2 / 3;
+  min-height: 200px;
+} 
+
+.content-2 {
+  background-color: yellow;
+  grid-column: 2 / 3;
+  grid-row: 3;
+  min-height: 200px;
+} 
+.content-3 {
+  background-color: red;
+  grid-column:  3;
+  grid-row:  3;
+  min-height: 200px;
+} 
