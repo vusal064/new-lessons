@@ -1,0 +1,13 @@
+@mixin flex($justify: center, $align: center, $direction: null, $wrap: null) {
+  display: flex;
+  justify-content: $justify;
+  align-items: $align;
+  flex-direction: $direction;
+  flex-wrap: $wrap;
+}
+
+  // font-family: "Fraunces", serif;
+  // font-optical-sizing: auto;
+  // font-weight: 300;
+  // font-style: normal;
+  // font-variation-settings: "SOFT" 0, "WONK" 0;
