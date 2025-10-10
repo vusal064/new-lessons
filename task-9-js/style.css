@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f5deb3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 900px;
+  height: 300px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.slider-button-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-button-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.slider-img {
+  width: 32%; /* 3 şəkil eyni anda görünəcək */
+  height: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  font-weight: bold;
+  padding: 0px 10px;
+}
