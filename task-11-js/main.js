@@ -26,7 +26,7 @@ items.forEach(function (item) {
 });
 
 products.appendChild(cardBox);
-
+// bu hissede hem internetden hemde tanisdan komek aldim
 let favButtons = document.querySelectorAll(".fav-btn");
 
 favButtons.forEach((btn) => {
