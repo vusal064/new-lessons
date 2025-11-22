@@ -1,107 +1,94 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+/* .container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+input {
+  width: 200px;
+  padding: 8px;
+  height: 10px;
+}
+button {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-left: 10px;
+  padding: 5px 30px;
+  border-radius: 10px;
+}
+
+.item {
+  font-size: 20px;
+  color: black;
+  background-color: blueviolet;
+  width: 200px;
+  text-align: center;
+}
+
+.newItem {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.deleteBtn {
+  background-color: blue;
+  border: none;
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+  width: 50px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  padding: 0;
+} */
 
 body {
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  background-color: blueviolet;
 }
 
-/* .btn{
-    padding: 50px 80px;
-    background-color: blue;
-    border: none;
-    border-radius: 100px;   
-    color: white;
-    font-size: 30px;
-}  */
-
-/* .box1{
-    width: 300px;
-    height: 100px;
-    border: 1px solid black;
-}
-
-.box2{
-    width: 300px;
-    height: 50px;
-    margin: 30px 0px;
-}
-
-.btn{
-    width: 150px;
-    height: 50px;
-    background-color: green;
-    border: none;
-    border-radius: 100px;
-    font-size: 20px;
-    color: white;
-} */
-
-/* 
-.btn{
-    width: 150px;
-    height: 50px;
-    background-color: green;
-    border: none;
-    border-radius: 100px;
-    font-size: 20px;
-    color: white;
-    margin-bottom: 10px;
-    margin-top: 10px;
-}
-
-
-.sideBar{
-    display: none;
-}
-
-.active{
-    width: 300px;
-    height: 500px;
-    background-color: red;
-}
-
-li{
-    color: blue;
-    font-size: 30px;
-} */
-
-/* .main {
-  width: 400px;
-  height: 300px;
-  border: 1px solid black;
-}
-
-.main img {
+.container {
   width: 100%;
-  height: 100%;
-} */
-
-.main {
-  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+h4 {
+  font-size: 30px;
+  margin-left: 20px;
+  color: blueviolet;
+}
+.select-zone {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
 }
 
-.btn1 {
-  padding: 20px 30px;
-  background-color: black;
-  border: none;
-  color: white;
+.dragZone {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.dragDiv {
+  width: 80%;
+  height: 50px;
+  background-color: blueviolet;
+  margin: auto;
+  padding: 0px 20px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
   border-radius: 5px;
 }
-
-.btn2 {
-  padding: 20px 30px;
-  background-color: black;
-  border: none;
-  color: white;
-  border-radius: 5px;
-}
-
-.count {
-  margin: 0px 10px;
+p {
+  font-size: 24px;
 }
