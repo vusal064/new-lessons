@@ -1,7 +1,7 @@
- function Profile({ name, age }) {
+ export function Profile({ name, age }) {
   return (
     <div
-      onClick={onClick}
+      onClick={() => {}}
       style={{
         border: "1px solid red",
         paddingLeft: "10px",
@@ -14,3 +14,4 @@
     </div>
   );
 }
+
