@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/ad02cc7647.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <div class="header-left">
+          <h2>Tapşırıq Meneceri</h2>
+          <p>Tapşırıqlarınızı effektiv idarə edin</p>
+        </div>
+        <div class="header-right">
+          <button class="icon-btn"><i class="fa-regular fa-moon"></i></button>
+        </div>
+      </div>
+
+      <div class="main">
+        <div class="card-1">
+          <div class="card-left">
+            <p>Ümumi Tapşırıq</p>
+            <span class="task-number">0</span>
+          </div>
+          <div class="card-right">
+            <div class="right-div">
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-2">
+          <div class="card-left">
+            <p>Aktiv</p>
+            <span class="task-number">0</span>
+          </div>
+          <div class="card-right">
+            <div class="right-div">
+              <div class="circle crc-2"></div>
+            </div>
+          </div>
+        </div>
+        <div class="card-3">
+          <div class="card-left">
+            <p>Tamamlandı</p>
+            <span class="task-number">0</span>
+          </div>
+          <div class="card-right">
+            <div class="right-div">
+              <div class="circle crc-3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <section class="input-section">
+        <input
+          class="add-task"
+          type="text"
+          placeholder="Yeni tapşırıq əlavə edin..."
+        />
+        <select class="task-level" id="level">
+          <option>Aşağı</option>
+          <option>Orta</option>
+          <option>Yüksək</option>
+        </select>
+        <button class="addBtn">+ Əlavə et</button>
+      </section>
+
+      <section class="search-section">
+        <div class="inputs">
+          <input
+            class="search-task"
+            type="text"
+            placeholder="Tapşırıq axtar..."
+          />
+          <i class="fa-solid fa-magnifying-glass input-icon"></i>
+        </div>
+
+        <button class="all">Hamısı</button>
+        <button class="all">Aktiv</button>
+        <button class="all">Tamamlandı</button>
+        <button class="i-btn"><i class="fa-solid fa-download"></i></button>
+        <button class="i-btn"><i class="fa-solid fa-upload"></i></button>
+      </section>
+
+      <section class="tasks-section">
+        <div class="not-found">
+          <div class="crc-div"></div>
+          <h3>Heç bir tapşırıq tapılmadı</h3>
+          <p>Yeni tapşırıq əlavə etməklə başlayın</p>
+        </div>
+      </section>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
