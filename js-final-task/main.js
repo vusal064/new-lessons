@@ -1,4 +1,3 @@
-// ELEMENTLƏR
 const addInput = document.querySelector(".add-task");
 const levelSelect = document.getElementById("level");
 const addBtn = document.querySelector(".addBtn");
@@ -67,7 +66,6 @@ function createTaskElement(task) {
     </div>
   `;
 
-  // CHECKBOX — tamamlanma
   const checkbox = taskDiv.querySelector(".task-checkbox");
   checkbox.addEventListener("change", () => {
     task.completed = checkbox.checked;
@@ -75,7 +73,6 @@ function createTaskElement(task) {
     renderTasks(currentFilter);
   });
 
-  // DELETE BTN
   const deleteBtn = taskDiv.querySelector(".delete-btn");
   deleteBtn.addEventListener("click", () => {
     tasks = tasks.filter((t) => t.id !== task.id);
@@ -83,7 +80,6 @@ function createTaskElement(task) {
     renderTasks(currentFilter);
   });
 
-  // EDIT BTN
   const editBtn = taskDiv.querySelector(".edit-btn");
   editBtn.addEventListener("click", () => {
     const newText = prompt("Yeni tapşırıq mətni:", task.text);
@@ -97,7 +93,6 @@ function createTaskElement(task) {
   tasksSection.appendChild(taskDiv);
 }
 
-// Bütün task-ları çək və ekrana yaz
 function renderTasks(filter = "all") {
   tasksSection.innerHTML = "";
 
@@ -119,8 +114,6 @@ function renderTasks(filter = "all") {
 
   updateCounts();
 }
-
-// ====================== TASK ƏLAVƏ ETMƏ ======================
 
 function addTask() {
   const text = addInput.value.trim();
@@ -151,8 +144,6 @@ addInput.addEventListener("keyup", (e) => {
   }
 });
 
-// ====================== FİLTER BUTTON======================
-
 filterBtns.forEach((btn) => {
   const text = btn.textContent.trim();
 
@@ -169,10 +160,7 @@ filterBtns.forEach((btn) => {
   });
 });
 
-// İlk açılışda "Hamısı" aktiv olsun
 filterBtns[0].classList.add("active");
-
-// ====================== DARK / LIGHT  ======================
 
 function setTheme(mode) {
   if (mode === "dark") {
@@ -194,8 +182,6 @@ themeBtn.addEventListener("click", () => {
   const newMode = document.body.classList.contains("dark") ? "light" : "dark";
   setTheme(newMode);
 });
-
-// ======================  SEARCH ======================
 
 searchInput.addEventListener("input", () => {
   const text = searchInput.value.toLowerCase().trim();

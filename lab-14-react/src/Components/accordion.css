@@ -1,0 +1,31 @@
+.accordion-wrapper {
+  width: 600px;
+  margin: 30px auto;
+  font-family: sans-serif;
+}
+
+.main-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.accordion-item {
+  background: #fff;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.accordion-header {
+  padding: 15px 20px;
+  background: #f5f5f5;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+
+.accordion-content {
+  padding: 15px 20px;
+  border-top: 1px solid #ddd;
+}

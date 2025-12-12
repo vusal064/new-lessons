@@ -280,7 +280,6 @@ body.dark .container {
   color: #135ae4;
 }
 
-/* Dark Mode uyğunluğu üçün */
 body.dark .task-item {
   background-color: #222;
   border-color: #444;
