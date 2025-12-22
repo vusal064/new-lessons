@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="az">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>İşçi İdarəetmə Sistemi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>İşçi İdarəetmə Sistemi</h1>
+
+    <div class="container">
+      <!-- Form -->
+      <div class="form-section">
+        <h3>Yeni İşçi Əlavə Et</h3>
+        <form id="employeeForm">
+          <input type="text" id="fullname" placeholder="Ad və Soyad" required />
+          <input type="number" id="age" placeholder="Yaş (18-65)" required />
+          <input type="text" id="position" placeholder="Vəzifə" required />
+          <input
+            type="number"
+            id="experience"
+            placeholder="Təcrübə (il)"
+            required
+          />
+
+          <select id="skills" multiple required>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JavaScript">JavaScript</option>
+            <option value="Python">Python</option>
+            <option value="C++">C++</option>
+          </select>
+
+          <input type="date" id="startDate" required />
+          <button type="submit">Əlavə Et</button>
+        </form>
+      </div>
+
+      <!-- Table -->
+      <div class="table-section">
+        <input type="text" id="search" placeholder="Axtar..." />
+        <table>
+          <thead>
+            <tr>
+              <th>№</th>
+              <th id="sortName">Ad və Soyad ⬍</th>
+              <th id="sortAge">Yaş ⬍</th>
+              <th>Vəzifə</th>
+              <th>Təcrübə</th>
+              <th>Bacarıqlar</th>
+              <th>Başlama Tarixi</th>
+              <th>Əməliyyatlar</th>
+            </tr>
+          </thead>
+          <tbody id="employeeTable"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Script aşağıda olmalıdır -->
+    <script src="main.js"></script>
+  </body>
+</html>
