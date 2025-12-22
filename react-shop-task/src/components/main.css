@@ -1,0 +1,167 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Filtr və header */
+.main-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+.main-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.main-icon {
+  font-size: 20px;
+}
+
+.main-title {
+  font-size: 15px;
+  color: #646262;
+}
+
+.main-right button {
+  margin-left: 15px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.15s ease;
+}
+
+.main-right button:hover {
+  color: white;
+  background-color: rgb(3, 97, 173);
+}
+
+.main-right button:active {
+  background-color: rgba(19, 5, 211, 0.4);
+  transform: scale(0.95);
+}
+
+/* Layout: Cart + Products */
+.content-wrapper {
+  display: flex;
+  gap: 20px;
+  padding: 20px 50px;
+}
+
+/* Səbət */
+.cart-panel {
+  flex: 1;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.cart-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+
+.cart-icon {
+  font-size: 24px;
+  color: #2563eb;
+}
+
+.cart-body {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.cart-item-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #f9f9f9;
+  padding: 10px;
+  border-radius: 8px;
+  position: relative;
+}
+
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cart-item-name {
+  font-weight: 600;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.quantity-controls button {
+  width: 25px;
+  height: 25px;
+  border: none;
+  border-radius: 5px;
+  background: #ddd;
+  cursor: pointer;
+}
+
+.quantity-controls span {
+  width: 20px;
+  text-align: center;
+}
+
+.remove-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background: transparent;
+  color: red;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.total-price {
+  font-weight: 700;
+  text-align: right;
+  margin-top: 10px;
+}
+
+/* Empty Cart */
+.empty-icon {
+  font-size: 50px;
+  color: #ccc;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.empty-title {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
+  color: #555;
+}
+
+.empty-text {
+  text-align: center;
+  color: #888;
+}
